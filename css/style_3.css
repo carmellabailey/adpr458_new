@@ -35,16 +35,6 @@ a:hover {
     text-decoration: black;
  }
 
- .socialMedia ul{
-    padding: 0;
-    margin: 20px;
-    list-style: none;
-  }
-  
-  .socialMedia ul li{
-    display: inline;
-    padding-right: 20px;
-
 /*** Layout ***/
 .container{
     background-color:tan;
@@ -84,32 +74,16 @@ a:hover {
 .about{
     grid-column: 9 / span 1;
     padding-top: 2rem;
-    background-color: tan;
 }
 .work{
     grid-column: 10 / span 1;
     padding-top: 2rem;
-    background-color: tan;
 }
 .contact{
     grid-column: 11 / span 1;
     padding-top: 2rem;
-    background-color: tan;
 }
-.card{
-    text-align: center;
-    margin: 1rem;
-    padding-bottom: 2rem;
-    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
-}
-.card-title{
-    margin: 0.75rem 0 0 0;
-    padding: 0 2rem 0.5rem;
-}
-.card-text{
-    margin: 0.5rem 0 1rem 0;
-    padding: 0 2rem 0.5rem;
-}
+
 
 
 
@@ -145,16 +119,5 @@ a:hover {
     .aboutme2{
         grid-column: 8 / span 4;
         padding-top: 4rem;
-    }
-}
-
-/*** Desktop Layout ***/
-    .work-section{
-        display: flex;
-        justify-content: center;
-        flex-flow: row wrap;
-    }
-    .card{
-        flex-basis: 27.5%;
     }
 }
