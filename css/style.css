@@ -7,9 +7,10 @@ body {
     margin: 0;
     font-family: sans-serif;
     background-image: url("../images/background.png");
+    background-color: white;
     }
 .container{
-    background-color:blanchedalmond;
+    background-color:white;
 }
 header{
     background-color:tan;
@@ -27,11 +28,11 @@ img{
     max-width: 100%;
 }
 a:link, a:visited {
-   color:blanchedalmond;
+   color:black;
    text-decoration: none;
 }
 a:hover {
-    color:black;
+    color:white;
     text-decoration: black;
  }
 
@@ -44,7 +45,7 @@ a:hover {
     margin: 0 auto;
     width: min(95%, 75rem);
 }
-.container > * {
+.container > *{
     grid-column: span 12;
 }
 
@@ -55,6 +56,7 @@ a:hover {
     grid-template-columns: repeat(12,1fr);
     margin: 0 auto;
     width: min(95%, 75rem);
+    text-align: left;
 }
 .container2 > * {
     grid-column: span 12;
@@ -62,6 +64,7 @@ a:hover {
 
 .aboutme p{
     padding-bottom: 3rem;
+    text-align: left;
 }
 
 
@@ -70,18 +73,37 @@ a:hover {
 .name {
     grid-column: 1 / span 4;
     padding-top: .5rem;
+    color:black;
 }
 .about{
     grid-column: 9 / span 1;
     padding-top: 2rem;
+    color: white;
 }
 .work{
     grid-column: 10 / span 1;
     padding-top: 2rem;
+    color: white;
 }
 .contact{
     grid-column: 11 / span 1;
     padding-top: 2rem;
+    color: white;
+}
+.card{
+    background-color: white;
+    text-align: center;
+    margin: 1rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+}
+.card-title{
+    margin: 0.75rem 0 0 0;
+    padding: 0 2rem 0.5rem;
+}
+.card-text{
+    margin: 0.5rem 0 1rem 0;
+    padding: 0 2rem 0.5rem;
 }
 
 
@@ -89,7 +111,7 @@ a:hover {
 
 /*** Components ***/
 .button:link, .button:visited{
-    color:blanchedalmond;
+    color:white;
     background-color: black;
     text-align: center;
     text-decoration: none;
@@ -100,8 +122,8 @@ a:hover {
     transition: background-color 0.5s ease;
 }
 .button:hover{
-    background-color: rgb(163, 137, 106);
-    color:blanchedalmond;
+    background-color: tan;
+    color:white;
 }
 
 
