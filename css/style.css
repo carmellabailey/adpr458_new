@@ -36,6 +36,24 @@ a:hover {
     text-decoration: black;
  }
 
+ .fa-facebook {
+    color: white;
+  }
+  
+  .fa-linkedin {
+    color: white;
+  }
+  
+  .fa-instagram {
+    color: white;
+  }
+
+  .me p{
+      padding-left: 2;
+      text-align: left;
+      grid-column: 1/span 4;
+  }
+
 /*** Layout ***/
 .container{
     background-color:tan;
